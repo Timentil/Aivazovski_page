@@ -35,4 +35,8 @@
     .home-description {
         font-size: 14px;
     }
+
+    .home-img {
+        height: 500px;
+    }
 }
