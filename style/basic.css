@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
@@ -19,7 +23,7 @@ a {
     color: unset;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     margin: 0;
 }
 
