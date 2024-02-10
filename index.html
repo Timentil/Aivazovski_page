@@ -36,6 +36,43 @@
             </nav>
         </div>
     </header>
+
+    <div class="mobile-navigation" aria-label="mobile navigation">
+        <label for="toggler-id" aria-label="open/close mobile navigation menu">
+            <svg class="mobile-navingation-burger" aria-label="burger icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
+
+        <nav class="mobile-navigation-nav" aria-label="mobile header navigation">
+            <ul class="mobile-navigation-nav-list" aria-label="mobile header navigation list">
+                <li>
+                    <a href="#home-id" class="mobile-navigation-nav-link" aria-label="link to home">Home</a>
+                </li>
+                <li>
+                    <a href="#about-id" class="mobile-navigation-nav-link" aria-label="link to about">About</a>
+                </li>
+                <li>
+                    <a href="#history-id" class="mobile-navigation-nav-link" aria-label="link to history">History</a>
+                </li>
+                <li>
+                    <a href="#portfolio-id" class="mobile-navigation-nav-link" aria-label="link to portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contacts-id" class="mobile-navigation-nav-link" aria-label="link to contacts">Contacts</a>
+                </li>
+            </ul>
+
+            <label for="toggler-id" aria-label="open/close mobile navigation menu">
+                <svg class="mobile-navingation-cross" aria-label="cross icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
+
     <main aria-label="main">
         <section class="home" aria-label="home section" id="hpme-id">
             <div class="container">
@@ -67,23 +104,24 @@
         <section class="portfolio" aria-label="portfolio section" id="portfolio-id">
             <div class="container">
                 <h2 class="portfolio-title" aria-label="portfolio title">Portfolio</h2>
-                <img src="assets/webp/Зимний обоз в пути (картина Ивана Айвазовского, 1857) 1.webp" alt="picture Winter wagon train on the way" class="portfolio-picture">
+                <img src="assets/webp/Зимний_обоз_в_пути_1.webp" alt="picture Winter wagon train on the way" class="portfolio-picture">
                 <h3 class="portfolio-description" aria-label="picture description">Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857</h3>
 
-                <img src="assets/webp/Айвазовский_Радуга_1873 1.webp" alt="picture Rainbow" class="portfolio-picture">
+                <img src="assets/webp/Айвазовский_Радуга_1873_1.webp" alt="picture Rainbow" class="portfolio-picture">
                 <h3 class="portfolio-description" aria-label="picture description">Радуга, 1873 г. | Rainbow, 1873</h3>
 
-                <img src="assets/webp/неаполитанский_залив_утром_1893 1.webp" alt="picture Gulf of Naples in the morning" class="portfolio-picture">
+                <img src="assets/webp/неаполитанский_залив_утром_1893_1.webp" alt="picture Gulf of Naples in the morning" class="portfolio-picture">
                 <h3 class="portfolio-description" aria-label="picture description">Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893</h3>
             </div>
         </section>
     </main>
+
     <footer class="contacts" aria-label="contacts section" id="contacts-id">
         <div class="container">
             <h2 class="contacts-title" aria-label="contacts title">Contacts</h2>
-            <button class="contacts-button">
+            <div class="contacts-button">
                 <a href="https://aivazovskiy.su" target="_blank" class="button-link">aivazovskiy.su</a>
-            </button>
+            </div>
 
             <address class="socials" aria-label="social icons">
                 <a href="https://youtube.com" target="_blank" aria-label="link to youtube">
